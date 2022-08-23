@@ -76,9 +76,9 @@ public class Main {
         double DenisNew = Denis * 1.1 , godDenisNew = DenisNew * 12;
         double KrisNew = Kris * 1.1 , godKrisNew = KrisNew * 12;
         System.out.println("Новая зарплата сотрудников после повышения на 10% :");
-        System.out.println("Маша  - " + Masha + " руб.");
-        System.out.println("Денис - " + Denis + " руб.");
-        System.out.println("Кристина - " + Kris + " руб.");
+        System.out.println("Маша  - " + MashaNew + " руб.");
+        System.out.println("Денис - " + DenisNew + " руб.");
+        System.out.println("Кристина - " + KrisNew + " руб.");
         System.out.println("Разница годовых доходов до и после повышения :");
         System.out.println("Маша  - " + (godMashaNew - godMasha) + " руб.");
         System.out.println("Денис - " + (godDenisNew - godDenis) + " руб.");
